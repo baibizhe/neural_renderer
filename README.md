@@ -1,3 +1,36 @@
+This repo could be installed and run 
+$python3 ./examples/example1.py
+Drawing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90/90 [00:01<00:00, 64.04it/s]
+
+
+## My nvcc version(in linux)
+$ nvcc -V
+nvidia-smi :nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Wed_Apr_24_19:10:27_PDT_2019
+Cuda compilation tools, release 10.1, V10.1.168
+
+## Other lib version in requirements.txt
+## Nvidia Driver version (in linux)
+$ nvidia-smi
+Sat Jun 12 17:19:41 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  On   | 00000000:00:07.0 Off |                    0 |
+| N/A   31C    P0    39W / 300W |      0MiB / 16160MiB |      0%      Default |
+..........
+..........
+..........
+
+
+
+
+
 # Neural 3D Mesh Renderer (CVPR 2018)
 
 This repo contains a PyTorch implementation of the paper [Neural 3D Mesh Renderer](http://hiroharu-kato.com/projects_en/neural_renderer.html) by Hiroharu Kato, Yoshitaka Ushiku, and Tatsuya Harada.
