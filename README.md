@@ -1,3 +1,7 @@
+#Check your GPU 
+Check your GPU  supported oldest cuda version and download its corresponding pytroch https://docs.nvidia.com/deploy/cuda-compatibility/index.html#support-hardware.
+On another mathcine wich RTX3070(Ampere), intructions  below are not working because the oldest cuda version supported is  11-0.
+
 This repo could be installed and run 
 $python3 ./examples/example1.py
 Drawing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90/90 [00:01<00:00, 64.04it/s]
