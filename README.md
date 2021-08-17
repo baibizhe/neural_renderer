@@ -14,7 +14,7 @@ Copyright (c) 2005-2019 NVIDIA Corporation
 Built on Wed_Apr_24_19:10:27_PDT_2019
 Cuda compilation tools, release 10.1, V10.1.168
 
-## Other lib version in requirements.txt
+
 ## Nvidia Driver version (in linux)
 $ nvidia-smi
 Sat Jun 12 17:19:41 2021       
